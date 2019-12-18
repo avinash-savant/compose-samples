@@ -23,16 +23,16 @@ import androidx.ui.text.font.Font
 import androidx.ui.text.font.FontFamily
 import androidx.ui.text.font.FontWeight
 
-val regular = Font("montserrat_regular.ttf")
-val medium = Font("montserrat_medium.ttf", FontWeight.W500)
-val semibold = Font("montserrat_semibold.ttf", FontWeight.W600)
+val regular = Font("biotif_regular.ttf")
+val medium = Font("biotif_medium.ttf", FontWeight.W500)
+val semibold = Font("biotif_semibold.ttf", FontWeight.W600)
 
 val appFontFamily = FontFamily(fonts = listOf(regular, medium, semibold))
 
 val bodyFontFamily = FontFamily(
     fonts = listOf(
-        Font("domine_regular.ttf"),
-        Font("domine_bold", FontWeight.Bold)
+        Font("biotif_regular.ttf"),
+        Font("biotif_semibold", FontWeight.Bold)
     )
 )
 

@@ -16,6 +16,7 @@
 
 package com.example.jetnews.ui.home
 
+import android.widget.ImageButton
 import androidx.compose.Composable
 import androidx.compose.unaryPlus
 import androidx.ui.core.Opacity
@@ -104,7 +105,7 @@ private fun HomeScreenPopularSection(posts: List<Post>) {
     HorizontalScroller {
         Row(modifier = Spacing(bottom = 16.dp, right = 16.dp)) {
             posts.forEach { post ->
-                WidthSpacer(16.dp)
+                WidthSpacer(36.dp)
                 PostCardPopular(post)
             }
         }

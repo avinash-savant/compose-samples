@@ -21,6 +21,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.ui.core.setContent
 import com.example.jetnews.data.getPostsWithImagesLoaded
 import com.example.jetnews.data.posts
+import com.example.jetnews.neo.ViuApp
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,7 +32,8 @@ class MainActivity : AppCompatActivity() {
             resources
         )
         setContent {
-            JetnewsApp()
+//            JetnewsApp()
+            ViuApp()
         }
     }
 }

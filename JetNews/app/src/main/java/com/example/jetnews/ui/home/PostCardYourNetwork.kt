@@ -42,7 +42,7 @@ import com.example.jetnews.ui.navigateTo
 
 @Composable
 fun PostCardPopular(post: Post) {
-    Card(shape = RoundedCornerShape(4.dp)) {
+    Card(shape = RoundedCornerShape(8.dp)) {
         Ripple(bounded = true) {
             Clickable(onClick = {
                 navigateTo(Screen.Article(post.id))
